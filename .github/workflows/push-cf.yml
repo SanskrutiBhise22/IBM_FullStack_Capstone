@@ -35,7 +35,7 @@ jobs:
         run: |
           ibmcloud login --apikey "$IBM_CLOUD_API" -r "$IBM_CLOUD_REGION" -g "$IBM_CLOUD_GROUP"
         shell: bash
-        - name: targeting
+      - name: targeting
         run: |
           ibmcloud target -g default
         shell: bash
